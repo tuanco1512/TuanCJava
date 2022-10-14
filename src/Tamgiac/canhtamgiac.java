@@ -5,6 +5,12 @@ public class canhtamgiac {
     int canh2;
     int canh3;
 
+    // Hàm khởi tạo
+    // - Tên hàm phải giống tên lớp
+    public canhtamgiac(){
+        System.out.println("Constructor...");
+    }
+
     public int getCanh1() {
         return canh1;
     }

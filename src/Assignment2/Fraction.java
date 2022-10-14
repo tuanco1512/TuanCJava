@@ -19,15 +19,15 @@ public class Fraction {
     }
 
     // Hàm nhập phân số
-    public void NhậpPS(Scanner sc){
+    public void NhậpPS(Scanner cs){
         int a;
         int b;
         do {
             System.out.println("\tNhập vào tử số: ");
-            a = sc.nextInt();
+            a = cs.nextInt();
 
             System.out.println("\tNhập vào mẫu số: ");
-            b = sc.nextInt();
+            b = cs.nextInt();
             //Kiểm tra
             if(b == 0){
                 System.out.println("Mẫu số không được = 0. Hãy nhập lại!");

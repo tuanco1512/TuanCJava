@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner ab = new Scanner(System.in);
         Fraction ps1 = new Fraction();
         Fraction ps2 = new Fraction();
         Fraction psT = new Fraction();
@@ -14,9 +14,9 @@ public class Main {
 
         // Nhập phân số
         System.out.println("Nhập vào phân số thứ 1: ");
-        ps1.NhậpPS(sc);
+        ps1.NhậpPS(ab);
         System.out.println("Nhập vào phân số thứ 2: ");
-        ps2.NhậpPS(sc);
+        ps2.NhậpPS(ab);
 
         // Tính tổng 2 phân số
         psT = ps1.CộngPS(ps2);
@@ -45,6 +45,6 @@ public class Main {
         System.out.println("\nPhân số chia là: ");
         psD.HiểnthịPS();
 
-        sc.close();
+        ab.close();
     }
 }
