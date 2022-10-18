@@ -28,7 +28,7 @@ public class ReceiptVN extends Receipt {
             price = 50*1000 + (getAmount()-50)*1200;
         }
         else if(100<getAmount()&&getAmount()<=200){
-            price = 50*1000 + 50*1200 + (getAmount()-100)*1200;
+            price = 50*1000 + 50*1200 + (getAmount()-100)*1500;
         }
         else {
             price = 50*1000 + 50*1200 + 100*1500 + (getAmount()-200)*2000;
